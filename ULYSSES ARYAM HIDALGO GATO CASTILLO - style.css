@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f8ff;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #A9A9A9;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+/* Formulário de matrícula */
+.form-matricula {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.10);
+  text-align: left;
+}
+.form-matricula label {
+  display: block;
+  margin: 14px 0 6px;
+  font-weight: 600;
+}
+.form-matricula input,
+.form-matricula select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  font: inherit;
+}
+.form-matricula button {
+  margin-top: 22px;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 7px;
+  background: #a9a9a9;
+  color: #111;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.form-matricula button:hover { background: #929292; }
